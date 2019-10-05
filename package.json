@@ -1,0 +1,67 @@
+{
+    "name": "node-mvc-boilerplate",
+    "version": "1.0.0",
+    "description": "node.js model view controller boiler plate code using ES6 ",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test --recursive --full-trace --exit",
+        "build": "babel src -d lib",
+        "start": "npm run build & node lib/index.js"
+    },
+    "engines": {
+        "node": ">=8.0"
+    },
+    "engineStrict": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sivabharathy-Sparkout/node-boiler-plate.git"
+    },
+    "keywords": [],
+    "author": "sivabharathy",
+    "license": "MIT",
+    "maintainers": [
+        "sivabharathy"
+    ],
+    "bugs": {
+        "url": "https://github.com/Sivabharathy-Sparkout/node-boiler-plate/issues"
+    },
+    "homepage": "https://github.com/Sivabharathy-Sparkout/node-boiler-plate#readme",
+    "dependencies": {
+        "@hapi/joi": "^15.1.1",
+        "async": "^3.1.0",
+        "aws-sdk": "^2.538.0",
+        "babel-upgrade": "^1.0.1",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "cryptr": "^4.0.2",
+        "dotenv": "^8.0.0",
+        "express": "^4.16.4",
+        "express-validator": "^6.2.0",
+        "express-ws": "^4.0.0",
+        "fs": "0.0.1-security",
+        "joi": "^14.3.1",
+        "mongoose": "^5.7.1",
+        "morgan": "^1.9.1",
+        "multiparty": "^4.2.1",
+        "mysql2": "^1.6.5",
+        "nodemailer": "^6.3.0",
+        "nodemon": "^1.19.3",
+        "paypal-rest-sdk": "^1.8.1",
+        "sequelize": "^5.19.1",
+        "shelljs": "^0.8.3",
+        "sqlite3": "^4.1.0",
+        "stripe": "^7.9.1",
+        "util": "^0.12.1",
+        "ws": "^7.1.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.6.2",
+        "@babel/core": "^7.6.2",
+        "@babel/plugin-transform-runtime": "^7.6.2",
+        "@babel/polyfill": "^7.6.0",
+        "@babel/preset-env": "^7.6.2",
+        "@babel/runtime": "^7.6.2",
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0"
+    }
+}
