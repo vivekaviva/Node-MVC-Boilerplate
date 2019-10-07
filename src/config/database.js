@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import { env } from './server';
 
 try { 
-    // mongodb connection established { useUnifiedTopology: true }
+    // mongodb update connection established { useUnifiedTopology: true }
     mongoose.connect(env.parsed.MONGODB_URL, { useNewUrlParser: true,useUnifiedTopology: true },(error) => {
         if(error){
             console.error('Error : unable to connect mongodb\n'+error.toString());
