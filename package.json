@@ -47,7 +47,7 @@
         "nodemailer": "^6.3.0",
         "nodemon": "^1.19.3",
         "paypal-rest-sdk": "^1.8.1",
-        "sequelize": "^5.19.1",
+        "sequelize": "^5.22.5",
         "shelljs": "^0.8.3",
         "sqlite3": "^4.1.0",
         "stripe": "^7.9.1",
