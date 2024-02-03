@@ -27,7 +27,7 @@
     },
     "homepage": "https://github.com/Sivabharathy-Sparkout/node-boiler-plate#readme",
     "dependencies": {
-        "@hapi/joi": "^15.1.1",
+        "@hapi/joi": "^17.1.1",
         "async": "^3.1.0",
         "aws-sdk": "^2.538.0",
         "babel-upgrade": "^1.0.1",
